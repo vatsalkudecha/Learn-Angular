@@ -10,7 +10,7 @@ import { WishItem } from './models/wishItem';
 export class AppComponent {
   items : WishItem[] = [
     new WishItem('To Learn Angular'),
-    new WishItem('Get Coffee', false),
+    new WishItem('Get Coffee', true),
     new WishItem('2 DSA questions', false) 
   ];
   title = 'wishlist';
